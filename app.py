@@ -2,6 +2,8 @@ from flask import Flask,request,jsonify
 import numpy as np
 import pickle
 import sklearn
+from sklearn.neighbors import _dist_metrics
+
 
 flask_app = Flask(__name__)
 model = pickle.load(open('model.pkl','rb'))
