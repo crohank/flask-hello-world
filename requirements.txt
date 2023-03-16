@@ -1,6 +1,6 @@
 Flask
 Gunicorn
-sklearn==0.24.2
+sklearn
 numpy
 scikit-learn
 scipy
