@@ -2,3 +2,6 @@ Flask
 Gunicorn
 sklearn
 numpy
+scikit-learn
+scipy
+matplotlib
